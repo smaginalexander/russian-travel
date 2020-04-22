@@ -1,0 +1,17 @@
+.place__website {
+    width: 45%;
+    align-self: flex-end;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+.place__website {
+    margin-bottom: 48px;
+}
+}
+
+@media screen and (max-width: 500px) {
+    .place__website {
+        display: none;
+    }
+}

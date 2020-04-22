@@ -1,0 +1,15 @@
+@import url(./__columns/footer__columns.css);
+@import url(./__column/footer__column.css);
+@import url(./__links/foote__links.css);
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+    padding-top: 92px;
+}
+
+@media screen and (max-width: 632px) {
+    .footer {
+        padding-top: 60px;
+    }
+}

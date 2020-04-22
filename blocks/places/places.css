@@ -1,0 +1,25 @@
+@import url(../place/place.css);
+
+.places {
+    display: flex;
+    width: 76%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .places {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places {
+        width: 100%;
+    }
+}

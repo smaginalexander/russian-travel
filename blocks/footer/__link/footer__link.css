@@ -1,0 +1,18 @@
+.footer__link {
+    max-width: 120px;
+    margin-right: 18px;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: white;
+}
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 632px) {
+    .footer__link {
+        line-height: 50px;
+        font-size: 24px;
+    }
+}
