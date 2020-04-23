@@ -1,13 +1,4 @@
 .photo-grid__item {
     object-fit: cover;
-    width: 100%;
-    
-    
-}
-
-@media screen and (max-width: 320px) {
-.photo-grid__item {
-  margin-bottom: 12px;   
-}
-      
+    width: 100%;       
 }

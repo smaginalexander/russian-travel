@@ -1,5 +1,3 @@
-@import url(../place/place.css);
-
 .places {
     display: flex;
     width: 76%;
@@ -18,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .places {
         width: 100%;
     }

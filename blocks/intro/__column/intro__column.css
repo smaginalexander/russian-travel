@@ -1,9 +1,0 @@
-.intro__column {
-    width: 72%;
-}
-
-@media screen and (max-width: 768px) {
-    .intro__column {
-        width: 100%;
-    }
-}

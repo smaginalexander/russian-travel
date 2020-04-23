@@ -1,5 +1,5 @@
 .place__text {
-    width: 45%;
+    width: 48%;
 }
 
 @media screen and (max-width: 768px) {
@@ -9,9 +9,10 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
     .place__text {
         align-self: center;
         width: 95%;
+        padding-top: 32px;
     }
 }

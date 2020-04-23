@@ -1,10 +1,10 @@
 .place__image {
-    width: 50%;
+    width: 47.5%;
     object-fit: contain;
     align-self: start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
     .place__image {
         width: 100%;
     }
