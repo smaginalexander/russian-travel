@@ -1,23 +1,28 @@
 .places {
     display: flex;
-    width: 76%;
+    flex-direction: column;
+    max-width: 76%;
     margin: auto;
+    padding-bottom: 70px;
 }
 
 @media screen and (max-width: 1024px) {
     .places {
-        width: 93%;
+        max-width: 93%;
+        padding-bottom: 66px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .places {
-        width: 96%;
+        max-width: 96%;
+
     }
 }
 
 @media screen and (max-width: 600px) {
     .places {
-        width: 100%;
+        max-width: 100%;
+        padding-bottom: 42px;
     }
 }
