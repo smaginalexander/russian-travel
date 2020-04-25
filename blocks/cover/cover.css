@@ -4,29 +4,31 @@
 
 .cover {
     width: 92%;
-    min-height: 740px;
+    height: 740px;
     background-image: url(../../images/__background.jpg);
     background-size: cover;
     margin: auto;
     position: relative;
+    display: flex;
+    align-items: stretch;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
         width: 100%;
-        min-height: 640px;
+        height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
-        min-height: 480px;
+        height: 480px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover {
-        min-height: 200px;
+        height: 200px;
     }
 }
 
