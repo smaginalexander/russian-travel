@@ -3,7 +3,7 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__caption/lead__caption.css);
-@import url(./__figure/figure.css);
+@import url(./__figure/lead__figure.css);
 
 .lead {
     display: flex;
