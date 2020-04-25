@@ -3,4 +3,5 @@
     margin: 0 auto;
     font-family: 'Inter', sans-serif, Arial;
     color: white;
+    max-width: 100%;
 }

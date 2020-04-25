@@ -1,4 +1,5 @@
 .place__website {
+    /* указал не max-width так как конейнер ужимается до неприемлемой ширины*/
     width: 48%;
     align-self: flex-end;
     list-style-type: none;

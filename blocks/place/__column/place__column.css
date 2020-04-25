@@ -1,6 +1,7 @@
-.place__column {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.place__column { 
+    display: flex; 
+    flex-direction: row; 
+    /* указал не max-width так как конейнер ужимается до неприемлемой ширины*/
+    width: 100%; 
     justify-content: space-between;
-}
+} 
