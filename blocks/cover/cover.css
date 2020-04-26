@@ -3,7 +3,7 @@
 @import url(./__subtitle/cover__subtitle.css);
 
 .cover {
-    max-width: 92%;
+    max-width: 1184px;
     height: 740px;
     background-image: url(../../images/__background.jpg);
     background-size: cover;
