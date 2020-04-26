@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 768px) {
-.lead__caption {
-  padding-left: 5%;
+  .lead__caption {
+    padding-left: 5%;
 }  
 }
